@@ -1,0 +1,48 @@
+<!DOCTYPE hmtl>
+<html>
+    <script type="text/JavaScript" src="./8Ball(final).js"></script>
+
+    <body>
+        <header>
+            <title>Magic8Ball</title>
+        </header>
+        <form align='center' action=""  onsubmit="getEightBall(); return false "> <!-- User input form -->
+            <h1>Magic 8ball</h1>
+
+            <!-- Local Image-->
+            <img src="C:\Users\JWH4\Pictures\Saved Pictures\8ball.png" width="100" height="100" id='8ball'>
+            
+            <div>
+                <!-- Question -->
+                <label for='question'>Question : </label>
+                <input id='question' name='question' type="text" required>
+
+                <!-- EightBall Response -->
+                <label for='answer' name='answer'>8ball :</label>
+                <input id='answer' name='answer' type='text' readonly required>
+
+                <!--Submit Button -->
+                <input type ="submit" value="Shake Me">  
+            </div>
+        </form>
+
+        <div align='center'>
+            <h3>History</h3>  
+            <input type='button' value="Clear History" onClick="window.location.reload();">
+            <br>
+            <br>
+            <table id='History' border="1">               
+                    <tr>
+                        <th><strong>ID</strong></th>
+                        <th><strong>My Question</strong></th>
+                        <th><strong>EightBall</strong></th>   
+                    </tr>
+            </table>
+        </div>
+    </body>
+    <div  align='center' class='footer'>
+        <footer>
+            <p><strong>Joe Heath</strong> / 27/06/2019 / Project name : 8ball / Language : JavaScript</p>
+        </footer>
+    </div>
+</html>
