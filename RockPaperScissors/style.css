@@ -1,0 +1,24 @@
+body
+{
+    background-color: rgb(78, 78, 78);
+}
+h1 
+{
+    color: whitesmoke;
+}
+
+table
+{
+    margin-top : 20px;
+    border-color : whitesmoke;
+}
+
+th
+{
+    background-color: rgb(218, 205, 205);
+    color: black;
+}
+label
+{
+    color: whitesmoke;
+}
