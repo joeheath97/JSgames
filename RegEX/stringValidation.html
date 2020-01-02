@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <body>
+        <form action="" onsubmit="getLogIn(); return false">
+            <div align="center">
+                <div id="loginPanel" 
+                    style="border:solid; border-color: black; height:25%; 
+                    width:10%; margin-top: 50px; padding:15px; font-family: Arial;
+                    background-image: linear-gradient(to top, rgb(238, 192, 138), white);"><!--inline css-->
+                    <h2><u>Login</u></h2>
+
+                    <!-- Usernmame input -->
+                    <label label for="txtUsername">Username:</label>
+                    <input type="text" id="txtUsername" style="text-align:center;" required>
+                    </br>
+                    </br>
+
+                    <!-- Password input -->
+                    <label label for="txtPassword">Password:</label>
+                    <input type="password" id="txtPassword" style="text-align:center;" required>
+                    </br>
+                    </br>
+
+                    <!-- submit button -->
+                    <input type="submit" id="btnSubmit" value="Login" onclick="window.location.href = 'Training.html'">
+                </div>
+            </div>
+        </form>
+    </body>
+    <script type="text/javaScript" src="./stringValidation.js"></script>
+</html>
